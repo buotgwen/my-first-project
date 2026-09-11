@@ -32,4 +32,8 @@ public class BuotQueue {
             System.out.println("Is the queue empty? " + myQueue.isEmpty());
         }
     }
+
+    public void add(String item) {
+        System.out.println("Adding item: " + item);
+    }
 }
